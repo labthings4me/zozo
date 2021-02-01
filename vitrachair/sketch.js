@@ -1,4 +1,4 @@
-
+let pics;
 
 function preload (){
 chair1= loadImage ('/chair/chair1.png');
@@ -46,7 +46,7 @@ function draw() {
     
   }
   
-noLoop ();
+noLoop ()
   
   
   
