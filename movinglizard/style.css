@@ -7,24 +7,26 @@ body {
 h1 {
     text-align: center;
     font-family: 'Anonymous Pro', monospace;
-    color: '#9175dc';
-        font-size: 52px;
+    color: #4aa2ca;
+    font-size: 52px;
     letter-spacing: 4px;
-        
+
 }
-h3 {font-family: 'Alegreya', serif;
-    color: '#48d5f0';
-    font-size: 32;
-    
-    
+
+h3 {
+    font-family: 'Alegreya', serif;
+    color: #f3df73;
+    font-size: 32px;
+
+
 }
-a: link {
-   color:#48d5f0;
+
+a:link {
+    color: #ffffff;
     background-color: transparent;
     text-decoration: none;
-    
-    
 }
+
 canvas {
     display: block;
     z-index: -1;
@@ -101,5 +103,3 @@ table.table2 td {
         padding-bottom: calc(50% - 0.5em);
     }
 }
-
-
