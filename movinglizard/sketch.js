@@ -1,9 +1,9 @@
 let pics;
 
 function preload (){
-bermudiana= loadImage ('/bermudiana.png');
-hat = loadImage ('/hat.png');
-lizard= loadImage ('/lizard.png');
+bermudiana= loadImage ('images/bermudiana.png');
+hat = loadImage ('images/hat.png');
+lizard= loadImage ('images/lizard.png');
  
   
   
@@ -46,7 +46,7 @@ function draw() {
     
   }
   
-noLoop
+noLoop ();
   
   
   
