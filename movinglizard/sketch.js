@@ -1,9 +1,9 @@
 let pics;
 
 function preload (){
-bermudiana= loadImage ('/movinglizard/bermudiana.png');
-hat = loadImage ('/movinglizard/hat.png');
-lizard= loadImage ('/movinglizard/lizard.png');
+bermudiana= loadImage ('/bermudiana.png');
+hat = loadImage ('/hat.png');
+lizard= loadImage ('/lizard.png');
  
   
   
