@@ -21,6 +21,11 @@ h3 {
 
 }
 
+a {
+    cursor: url('lizardcursor.png'), auto;
+}
+
+
 a:link {
     color: #ffffff;
     background-color: transparent;
