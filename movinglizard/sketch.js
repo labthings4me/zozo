@@ -12,7 +12,7 @@ lizard= loadImage ('images/lizard.png');
   
 
 function setup() {
-  createCanvas(windowWidth, windowWidth);
+  createCanvas(windowWidth, windowHeight);
    frameRate (0.5);
   noFill ;
   noStroke();
