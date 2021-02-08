@@ -1,4 +1,4 @@
 # zozo
 my art
- https://zozofive.github.io/zozo
+(https://zozofive.github.io/zozo/movinglizard/)
  
