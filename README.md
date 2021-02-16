@@ -7,3 +7,5 @@ Gallery Main Page
 
 (https://zozofive.github.io/zozo/BlueGallery/)
  
+ 
+ (https://zozofive.github.io/zozo/movinglizardcopy/)
