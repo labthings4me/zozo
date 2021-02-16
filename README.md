@@ -4,4 +4,6 @@ my art
 
 Gallery Main Page
 (https://zozofive.github.io/zozo/gallery/)
+
+(https://zozofive.github.io/zozo/BlueGallery/)
  
