@@ -7,7 +7,7 @@ body {
 h1 {
     text-align: center;
     font-family: 'Anonymous Pro', monospace;
-    color: #4aa2ca;
+    color: #9276dc;
     font-size: 52px;
     letter-spacing: 4px;
 
@@ -26,9 +26,16 @@ a {
 }
 
 
-a:link {
-    color: #ffffff;
-    background-color: transparent;
+a:link, a:visited {
+    color: #598dd8;
+    background-color: #ffffff;
+   
+  opacity: 0.5;
+      padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    
     
     text-decoration: none;
     
