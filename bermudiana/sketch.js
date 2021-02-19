@@ -12,7 +12,7 @@ function setup() {
   
 strokeWeight (0);
 noStroke;
- 
+ noFill;
 
 }
 
