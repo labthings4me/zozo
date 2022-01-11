@@ -17,7 +17,7 @@ function preload (){
 function draw() {
 
 
- var num = 4 ;
+ var num = 6 ;
 
   var sideLen = windowWidth/num; // x length
 
