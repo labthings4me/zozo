@@ -1,98 +1,57 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
 
-h1 {
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-    color: #9276dc;
-    font-size: 52px;
-    letter-spacing: 4px;
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto', sans-serif;
+  color: #9276dc;
+  font-size: 10;
+  letter-spacing: 4px;
 
-}
-
-h3 {
-    font-family: 'Alegreya', serif;
-    color: #f3df73;
-    font-size: 32px;
-
-
-}
-
-a {
-    cursor: url('plainlizcursor.png'), auto;
-}
-
-
-a:link, a:visited {
-    color: #598dd8;
-    background-color: #ffffff;
-   
-  opacity: 0.5;
-      padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-    
-    
-    text-decoration: none;
-    
-
-}
-
-a:visited {
-  text-decoration: none;
-    color: #ffffff
-}
-
-a:hover {
-  text-decoration: underline;
-    color: #5dcbfe
-}
-
-a:active {
-  text-decoration: underline;
-    color: #ffff90
-}
-</style>
-</head>
-<body>
-
-<h2>CSS Links</h2>
-<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
-<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
-<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
-
-</body>
-</html>
-
-    
 }
 
 canvas {
-    display: block;
-    z-index: -1;
+  display: block;
+  z-index: -1;
 }
 
-table.table0 {
+img {
+  border: 5px solid #000;
+}
+
+h1{
+  color: black;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     text-align: center;
+     top: 0%;
+}
+
+p{
     position: absolute;
-    z-index: 3;
-    width: 100%;
+    font-size: 0.875em;
     left: 50%;
-    top: 7%;
     transform: translateX(-50%) translateY(-50%);
+    text-align:center;
+    top: 5%;
 }
 
-table.table0 td {
-    width: 33vw;
-    padding-top: 10px;
-    text-align: center;
-    white-space: nowrap;
+table{
+  position: absolute;
+  z-index: 1;
+  width:100%;
+  top: 10%;
 
-    &:after,
-    &:before {
+}
+
+td {
+    width: 33vw;
+    height: 33vw;
+    vertical-align: baseline;
+    padding-top:10px;
+    text-align:center;
+
+    &:after, &:before {
         content: '';
 
         display: block;
@@ -100,50 +59,17 @@ table.table0 td {
     }
 }
 
-table.table1 {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%) translateY(-50%);
+.container{
+  position: relative;
 }
 
-table.table1 td {
-    width: 33vw;
-    padding-top: 10px;
-    text-align: center;
+.project {
+  position: absolute;
+  width:50%;
+  float: left;
 
-
-    &:after,
-    &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 }
-
-table.table2 {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-table.table2 td {
-    width: 33vw;
-    padding-top: 10px;
-    text-align: center;
-
-
-    &:after,
-    &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
-}
+st
