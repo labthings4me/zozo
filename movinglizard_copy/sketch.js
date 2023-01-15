@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-  ;
+  background ('white');
 
   var num = 5
   var sideLen = windowWidth/num;
