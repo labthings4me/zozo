@@ -14,7 +14,7 @@ lizard= loadImage ('images/lizard.png');
 function setup() {
   createCanvas(windowWidth, windowHeight);
    frameRate (0.5);
-  noFill ;
+  background ('white');
   noStroke();
 
 
@@ -34,7 +34,7 @@ function draw() {
 
 
 
-  
+
 
          var pics =  [bermudiana, hat, lizard,];
 
