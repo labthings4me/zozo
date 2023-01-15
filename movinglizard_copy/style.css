@@ -97,7 +97,7 @@ table.table1 {
     position: absolute;
     z-index: 2;
     width: 100%;
-    left: 60%;
+    left: 50%;
     top: 40%;
     transform: translateX(-50%) translateY(-50%);
 }
